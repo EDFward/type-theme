@@ -1,43 +1,37 @@
 # SITE CONFIGURATION
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://example.com" # the base hostname & protocol for your site
+url: "http://junjiah.com" # the base hostname & protocol for your site
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: Type Theme
-  avatar: avatar.png
-  gravatar: # Email MD5 hash
-  description: "A website with blog posts and pages" # used by search engines
+  title: Junjia's
+  description: "Yet Another Junjia's Blog"
 
   # Header and footer text
-  header_text: >
-     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-
-     <p>Remove all header text in <code>_config.yml</code> to disable this feature.</p>
-  header_text_feature_image:
   footer_text: >
    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
 
   # Icons
   rss: false
-  email_address: # Full email address, e.g. "sam@example.com"
+  gravatar:
+  email_address: "edfward@gmail.com"
   behance:
   bitbucket:
   dribbble:
   facebook:
   flickr:
-  github: "rohanchandra/type-theme"
+  github: "junjiah/junjiah.com"
   google_plus:
   instagram:
-  linkedin:  # Full URL
+  linkedin:
   pinterest:
   reddit:
   soundcloud:
   stack_exchange:  # Full URL
   steam:
   tumblr:
-  twitter: "twitter"
+  twitter: "junjiahe"
   wordpress:
   youtube:
 
@@ -72,4 +66,4 @@ highlighter: rouge
 sass:
   sass_dir: _sass
   style: :compressed
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
