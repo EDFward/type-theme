@@ -13,9 +13,6 @@ article {
     margin-bottom: 6%;
     text-align: center;
   }
-  a:hover {
-    @extend %link-hover;
-  }
   .footnotes {
     font-size: 0.9em;
   }
@@ -84,9 +81,6 @@ header {
     @media screen and (max-width: 576px) {
       width: 100%;
     }
-  }
-  a:hover {
-    @extend a.button:hover;
   }
 
   i {

@@ -6,7 +6,7 @@
 		</a>
 		{% elsif site.theme_settings.avatar %}
 		<a href="{{ site.baseurl }}/">
-			<img class="avatar" src="{{ site.baseurl }}/img/{{ site.theme_settings.avatar }}" alt=""/>
+			<img class="avatar" src="{{ site.baseurl }}/{{ site.theme_settings.avatar }}" alt=""/>
 		</a>
 		{% endif %}
 		<h1 class="site-title">
@@ -18,7 +18,7 @@
 			{% for page in site.pages %}
 			{% if page.title and page.hide != true %}
 			<li>
-				<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">
+				<a class="page-link" href="{{ page.url | relative_url }}">
 					{{ page.title }}
 				</a>
 			</li>
