@@ -9,7 +9,7 @@ title: 译：什么是「现代」编程？
 
 年轻的时候我接触了 BASIC 和汇编，然后是更正经的 Turbo Pascal，让我感慨「这才是编程」。[Turbo Pascal 提供了最早的集成编程环境 (Integrated Development Environment, IDE) 之一](https://photos.app.goo.gl/WcxNIutwtWmFTdzL2)——顾名思义，IDE 为程序员提供了写代码、编译、运行和 debug 的整套环境。Turbo Pascal 并没有很多的图形界面（它基于纯文本），但有简单的菜单和窗口。你可以进入 debug 模式，跟踪变量值的变化，等等。
 
-然后我接触了 [Delphi](https://photos.app.goo.gl/QnCWPHDcp4Drzev12)（即带图形界面的 Turbo Pascal），它的 IDE 即使到今天看起来还是不错的。我也简单玩了玩 [Visual Basic](https://www.youtube.com/watch?v=TgIrzFqGIKM)， 在 Windows 3.1 上捣鼓出了一个会报时的钟并发布到了某个论坛。然后我遇见了 Visual Studio...这几年来它一直是我 C++ 编程的参考。所以你看，IDE 一直都在，
+然后我接触了 [Delphi](https://photos.app.goo.gl/QnCWPHDcp4Drzev12)（即带图形界面的 Turbo Pascal），它的 IDE 即使到今天看起来还是不错的。我也简单玩了玩 [Visual Basic](https://www.youtube.com/watch?v=TgIrzFqGIKM)， 在 Windows 3.1 上捣鼓出了一个会报时的钟并发布到了某个论坛。然后我遇见了 Visual Studio...这几年来它一直是我 C++ 编程的参考。所以你看，IDE 一直都在。
 
 [Smalltalk 早在80年代初就以发布了很强大的图形界面 IDE 闻名。](https://www.youtube.com/watch?v=e0LfndNxqZg)
 
