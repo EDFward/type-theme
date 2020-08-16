@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://junjiah.com" # the base hostname & protocol for your site
+url: "https://junjiah.github.io/junjiah.com/"
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
